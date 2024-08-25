@@ -349,6 +349,15 @@ main {
 
 .section-course .course-div:hover {
   box-shadow: var(--btn-box-shadow);
+  background-color: #80a0d0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  z-index: 10;
+  transition: all 1s;
+  /* transform: scale3d(0,0,1); */
+  transform: scale(1.3,1.3);
+  
 }
 
 .course-div:nth-child(2) .icon .fa-solid {
